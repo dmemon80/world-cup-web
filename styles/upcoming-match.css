@@ -95,61 +95,51 @@ main {
 }
 
 
-/* Blog Section */
+/* Upcoming Match Section */
 
-.blogs-container {
+.matches-container {
     display: flex;
     justify-content: center;
     margin-top: 130px;
 }
 
-.blogs {
+.matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 984px;
-    height: 1134px;
-}
-
-.blog {
-    width: 312px;
-    height: 362px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
+    height: 508px;
     margin-left: 24px;
 }
 
-.blog img {
-    margin-bottom: 20px;
+.match {
+    width: 312px;
+    height: 242px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
 }
 
-.blog-details {
-    margin-left: 20px;
+.flag-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
 }
 
-.transfer-button {
-    text-decoration: none;
-    color: #161616;
-    padding: 4px 16px;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
-    border: 1px solid #161616;
-    border-radius: 5px;
+.flag-text {
+    text-align: center;
 }
 
-.blog-title {
-    font-size: 18px;
+.flag-text h2 {
+    font-size: 20px;
     font-weight: 600;
-    line-height: 27px;
+    line-height: 30px;
     color: #161616;
 }
 
-.blog span {
-    color: #161616b8;
-}
-
-.chat-icon {
-    margin-left: 30px;
+.flag-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #4D4D4D;
 }
 
 
